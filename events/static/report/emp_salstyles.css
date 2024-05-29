@@ -1,0 +1,24 @@
+#main{
+    background: url('../home_images/bg.jpg') no-repeat;
+    background-size: cover;
+    
+    
+}
+#cont{
+    background: rgba(255,255,255,0.6);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+   
+    padding-bottom: 300px;
+}
+table, th, td{
+    border: 2px solid;
+    text-align: center;
+    font-size: 1.2em;
+}
+table{
+    width:100%;
+}
+th{
+    background-color: aquamarine;
+}

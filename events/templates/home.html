@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+  {% load static %}
+  <link href="{% static 'styles.css' %}" rel="stylesheet" type="text/css">
+  <link href="{% static 'base_styles.css' %}" rel="stylesheet" type="text/css">
+
+  <title>Home</title>
+</head>
+<body>
+  {% include 'base.html' %}
+    {% block content %}
+    <div id="banner">
+      
+        
+        <div id="main_body">
+          
+            <div  class="row">
+              <div class="col-md-3"  id="Employee" class="tiles">
+                <h1><u>Employee</u></h1>
+                <ul>
+                  <li><a href="{% url 'new_emp' %}"><h4>New Employee</h4></a></li>
+                  <li><a href="{% url 'view_emp' %}"><h4>View Employee</h4></a></li>
+                  <li><a href="{% url 'modify_emp' %}"><h4>Bank_Details</h4></a></li>
+                </ul>
+    
+              </div>
+              <div class="col-md-3" id="Department" class="tiles">
+                <h1><u>Department</u></h1>
+                <ul>
+                  <li><a href="{% url 'view_dep' %}"><h4>View Department</h4></a></li>
+                  <li><a href="{% url 'new_dep' %}"><h4>New Department</h4></a></li>
+                  <!-- <li><a href=""><h4>Configure Department</h4></a></li> -->
+                </ul>
+              </div>
+
+              <div class="col-md-3" id="Salary" class="tiles">
+                <h1><u>Salary</u></h1>
+                <ul>
+                  <li><a href="{% url 'issue_salary' %}"><h4>Issue Salary</h4></a></li>
+                  <li><a href="{% url 'emp_sal_list' %}"><h4>Employee Salary List</h4></a></li>
+                  <!-- <li><a href=""><h4>Configure Salary</h4></a></li> -->
+                </ul>
+              </div>
+              <div class="col-md-3" id="report" class="tiles">
+                <h1><u>Report</u></h1>
+                <ul>
+                  <li><a href="{% url 'monthly_report' %}"><h4>Monthly Salary Report</h4></a></li>
+                  <li><a href="{% url 'annual_report' %}"><h4>Annual Salary Report</h4></a></li>
+                  <li><a href="{% url 'PFReport' %}"><h4>PF Report</h4></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+    </div>
+  </body>
+</html>
+{% endblock %}
+    

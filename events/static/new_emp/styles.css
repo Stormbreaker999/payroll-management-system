@@ -1,0 +1,46 @@
+
+#main{
+    background: url('bg.jpg') no-repeat;
+    background-size: cover;
+}
+#cont{
+    background: rgba(255,255,255,0.6);
+    padding: 10px 10px 10px 10px;
+}
+.form-group{
+    padding:20px 20px 20px 20px;
+}
+.form-control{
+    display:inline;
+    width:60%;
+}
+label, input, select{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+h1#new{
+    text-align: center;
+}
+label{
+    margin-left: 40px;
+    width: 200px;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#finish{
+    display: block;
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: blue;
+}

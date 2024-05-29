@@ -1,0 +1,69 @@
+#main{
+    background: url('../home_images/bg.jpg') no-repeat;
+    background-size: cover;
+    
+    
+}
+#cont{
+    background: rgba(255,255,255,0.6);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+select{
+    margin-left: 40px;
+    font-size: x-large;
+    margin-right: 30px;
+    width:max-content;
+    padding: 8px 8px;
+}
+input#ID{
+    margin-left: 40px;
+}
+input{
+    padding: 8px 8px;
+}
+
+label{
+    
+    margin-left: 40px;
+    font-size: xx-large;
+    margin-right: 30px;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+}
+#content{
+    padding:15px;
+    background: rgba(255,255,255,0.6);
+    padding-left: 50px;
+    
+}
+h3, h4{
+    display: inline;
+}
+h3{
+    display: inline-block;
+    width:40%;
+}
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+}

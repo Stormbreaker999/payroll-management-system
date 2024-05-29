@@ -1,0 +1,35 @@
+#main{
+    background: url('../home_images/bg.jpg') no-repeat;
+    background-size: cover;
+    
+    
+}
+#cont{
+    background: rgba(255,255,255,0.6);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+#cont input, button{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#form label{
+    font-size: x-large;
+}
+#form{
+    background: rgba(255,255,255,0.6);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}

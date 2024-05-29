@@ -1,0 +1,50 @@
+#main{
+    background: url('../home_images/bg.jpg') no-repeat;
+    background-size: cover;
+    
+    
+}
+#cont{
+    background: rgba(255,255,255,0.6);
+    
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+label{
+    font-size: 1.2em;
+}
+form{
+    
+    text-align: center;
+    padding-bottom: 200px;
+    font-size: x-large;
+}
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 30px;
+}
+#content{
+    padding:15px;
+    background: rgba(255,255,255,0.6);
+    padding-bottom: 300px;
+}
+table, th, td{
+    border: 2px solid;
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+th{
+    background-color: cadetblue;
+}
+table{
+    width:100%;
+}

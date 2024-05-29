@@ -1,0 +1,45 @@
+
+#header{
+    color:white;
+    background-color: #487eb0;
+    
+    
+}
+#header h1{
+    display: inline-block;
+}
+#logo{
+    margin-top: 10px;
+    display: inline-block;
+    padding-left: 10px;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu {
+    display: inline-block;
+    
+}
+#menu a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding:20px;
+    
+}
+#menu a:hover{
+    
+    background-color: #192a56;
+}
+#welcome{
+    background-color: #e74c3c;
+    margin-bottom: -8px;
+}
+/* .col-md-8{
+    width: 50%;
+}
+.col-md-4{
+width: 30%;
+} */

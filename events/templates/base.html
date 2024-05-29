@@ -1,0 +1,27 @@
+
+<div id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8" id="logo">
+          <h1>Payroll Management System</h1>
+
+        </div>
+        <div class="col-md-4">
+          <div id="menu" class="float-md-right">
+            <a href="{% url 'home' %}"><h2>Home</h2></a>
+          </div>
+        
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="welcome">
+    <div class="container">
+      <marquee behavior="" direction="" scrollamount="8"><h2>Welcome to ABC Company</h2></marquee>
+    </div>
+  </div>
+
+  {% block content %}
+
+  {% endblock %}

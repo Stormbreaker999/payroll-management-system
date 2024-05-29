@@ -1,0 +1,50 @@
+
+.col-md-3{
+    width:21%;
+}
+
+#banner{
+    
+    background: url("home_images/bg.jpeg") no-repeat;
+    
+    background-size: cover;
+    
+}
+#Employee{
+    margin-left: 20px;
+}
+
+#Employee, #Department, #Salary, #report{
+    background:rgba(255,255,255,0.5);
+    padding: 10px;
+    color:#34495e;
+    margin-right: 30px;
+    display: inline-block;
+
+}
+ul li{
+    padding:2px;
+}
+li a{
+    color:#34495e;
+    
+}
+a h3:hover, a h4:hover{
+    background-color: #32ff7e;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+ul li{
+    list-style: none;
+}
+#main_body{
+    
+    padding-top: 400px;
+}
+li a>h4{
+    margin: 3px;
+}
